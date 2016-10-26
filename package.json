@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/genu/AngularLTE#readme",
   "devDependencies": {
+    "angular-mocks": "^1.5.8",
     "commitizen": "2.8.6",
     "conventional-recommended-bump": "0.3.0",
     "cz-conventional-changelog": "1.2.0",
@@ -40,5 +41,16 @@
     "ghooks": {
       "pre-commit": "npm run test"
     }
+  },
+  "dependencies": {
+    "admin-lte": "^2.3.7",
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-ui-bootstrap": "^2.2.0",
+    "angular-ui-grid": "^3.2.9",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
   }
 }
