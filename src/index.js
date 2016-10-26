@@ -1,4 +1,3 @@
-'use strict';
-// Hotfix 2
-// Hotfix 3
-module.exports = {};
+import 'angular';
+
+export default angular.module('angularLTE', []).name;
