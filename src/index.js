@@ -2,4 +2,5 @@
 // Chore 1
 // Chore 2
 // Build fix 1
+// Hotfix 1
 module.exports = {};
