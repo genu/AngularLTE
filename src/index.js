@@ -5,4 +5,5 @@
 // Sample patch
 // Sample feature
 //Breaking release
+// Sample fix
 module.exports = {};
