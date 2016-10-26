@@ -2,7 +2,6 @@
   "name": "angular-lte",
   "description": "An Angular 1.x implementation of the AdminLTE admin template",
   "main": "src/index.js",
-  "version": "1.0.6",
   "scripts": {
     "test": "exit 0",
     "commit": "git-cz",
