@@ -1,7 +1,6 @@
 {
   "name": "angular-lte",
   "description": "An Angular 1.x implementation of the AdminLTE admin template",
-  "version": "0.0.0-semantically-released",
   "main": "src/index.js",
   "scripts": {
     "test": "exit 0",
