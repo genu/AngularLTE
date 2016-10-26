@@ -1,14 +1,16 @@
 {
   "name": "angular-lte",
-  "version": "1.0.1",
   "description": "An Angular 1.x implementation of the AdminLTE admin template",
+  "version": "0.0.0-semantically-released",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genu/AngularLTE.git"
+    "url": "https://github.com/genu/AngularLTE.git"
   },
   "keywords": [
     "adminlte",
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/genu/AngularLTE/issues"
   },
-  "homepage": "https://github.com/genu/AngularLTE#readme"
+  "homepage": "https://github.com/genu/AngularLTE#readme",
+  "devDependencies": {
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
 }
