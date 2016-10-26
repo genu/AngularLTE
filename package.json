@@ -1,0 +1,24 @@
+{
+  "name": "angular-lte",
+  "version": "1.0.0",
+  "description": "An Angular 1.x implementation of the AdminLTE admin template",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genu/AngularLTE.git"
+  },
+  "keywords": [
+    "adminlte",
+    "template",
+    "angular1"
+  ],
+  "author": "Eugen Istoc <me@eugenistoc.com> (http://eugenistoc.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genu/AngularLTE/issues"
+  },
+  "homepage": "https://github.com/genu/AngularLTE#readme"
+}
