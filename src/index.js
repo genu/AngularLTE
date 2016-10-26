@@ -6,5 +6,5 @@
 // Sample feature
 // Breaking release
 // Sample fix
-// 
+// sample fix from commitizen
 module.exports = {};
