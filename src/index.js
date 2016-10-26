@@ -1,5 +1,3 @@
 'use strict';
-// Chore
-// Build fix
-// Actual fix
+// Chore 1
 module.exports = {};
