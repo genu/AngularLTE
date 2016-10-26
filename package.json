@@ -25,9 +25,13 @@
   "homepage": "https://github.com/genu/AngularLTE#readme",
   "devDependencies": {
     "commitizen": "2.8.6",
+    "conventional-recommended-bump": "0.3.0",
     "cz-conventional-changelog": "1.2.0",
     "istanbul": "0.4.5",
     "semantic-release": "^4.3.5"
+  },
+  "releases": {
+    "analyzeCommits": "conventional-recommended-bump"
   },
   "config": {
     "commitizen": {
