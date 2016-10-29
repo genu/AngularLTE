@@ -2,14 +2,14 @@ module.exports = {
     template: `
         <div class="box-header"
             ng-class="{'with-border': $ctrl.border}">
-            <h3 class="box-title">{{$ctrl.title}}
-            <div class="box-tools pull-right" ng-translude></div>
+            <h3 class="box-title">{{$ctrl.title}}</h3>
+            <div class="box-tools pull-right" ng-transclude></div>
         </header>
     `,
     require: {
         boxCtrl: '^lteBox'
     },
-    translude: true,
+    transclude: true,
     bindings: {
         border: "@"
     },

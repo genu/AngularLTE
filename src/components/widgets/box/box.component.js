@@ -1,7 +1,8 @@
 module.exports = {
     template: `
         <div class="box" 
-            ng-class="[{'box-solid': $ctrl.solid}, $ctrl.boxStyle]">
+            ng-class="[{'box-solid': $ctrl.solid, 'collapsed-box': $ctrl.collapsed}, $ctrl.boxStyle]"
+            ng-hide="$ctrl.closed">
             <div ng-transclude></div>
             <div ng-if="$ctrl.asyncPending" class="overlay">
                 <i class="fa fa-refresh fa-spin"></i>
@@ -13,7 +14,9 @@ module.exports = {
         boxStyle: "@",
         title: "@",
         async: "<",
-        solid: "@"
+        solid: "@",
+        collapsed: "<",
+        closed: "<"
     },
     controller: function () {
         this.$onInit = () => {
