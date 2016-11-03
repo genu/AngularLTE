@@ -11,11 +11,8 @@ module.exports = {
     },
     transclude: true,
     bindings: {
-        border: "@"
+        border: "@",
+        title: "@"
     },
-    controller: function () {
-        this.$onInit = () => {
-            this.title = this.boxCtrl.title;
-        }
-    }
+    controller: function () {}
 }

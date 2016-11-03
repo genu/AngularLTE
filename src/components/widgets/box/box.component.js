@@ -12,7 +12,6 @@ module.exports = {
     transclude: true,
     bindings: {
         boxStyle: "@",
-        title: "@",
         async: "<",
         solid: "@",
         collapsed: "<",
