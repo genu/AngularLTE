@@ -2,7 +2,7 @@
   "name": "angular-lte",
   "description": "An Angular 1.x implementation of the AdminLTE admin template",
   "main": "dist/angular-lte.js",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "scripts": {
     "test": "exit 0",
     "commit": "git-cz",
@@ -66,6 +66,8 @@
     }
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
